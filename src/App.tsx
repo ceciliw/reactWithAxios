@@ -33,10 +33,7 @@ function App() {
 
   return (
     <div>
-      <strong>Personagem: {nome} </strong>
-      <strong>{personagem && personagem.name}</strong>
-      <strong> | Cor do olho: </strong>
-      <strong>{personagem && personagem.eye_color}</strong>
+      <strong> Meu personagem é {personagem && personagem.name}, o verdadeiro herói de Star Wars</strong>
 
       {/* <button onClick={() => defName('Tomate')}>Tomate</button> */}
       {/*<button onClick={() => defName('Batata')}>Batata</button> */}
