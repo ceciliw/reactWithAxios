@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import './App.css'
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 interface Advice{
   id: number;
@@ -38,7 +39,7 @@ function App() {
       {/* <button onClick={() => defName('Tomate')}>Tomate</button> */}
       {/*<button onClick={() => defName('Batata')}>Batata</button> */}
       {/*<button onClick={() => defName('Beterraba')}>Beterraba</button> */}
-
+      <Link to={'/teste'}>novo teste</Link>
     </div>
   )
 }
